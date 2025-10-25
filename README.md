@@ -94,24 +94,6 @@ Build & Run
 docker build -t ai-research-assistant .
 docker run -p 8080:8080 ai-research-assistan
 
-
-🧰 Folder Structure
-ai-research-assistant/
-│
-├── app/
-│   ├── main.py             # FastAPI entry point
-│   ├── search_engine.py    # web search logic
-│   ├── summarizer.py       # Hugging Face LLM logic
-│   ├── requirements.txt
-│   ├── .env.example
-│
-├── tests/
-│   └── test_app.py
-│
-├── README.md
-└── screenshots/
-    └── demo_ui.png
-
 🔍 Future Improvements
 
 ✅ Streamlit front-end for interactive UI
