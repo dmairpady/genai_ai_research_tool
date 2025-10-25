@@ -92,11 +92,7 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"]
 Build & Run
 
 docker build -t ai-research-assistant .
-docker run -p 8080:8080 ai-research-assistant
-
-📸 Demo Screenshot
-
-(Add one from Swagger UI here)
+docker run -p 8080:8080 ai-research-assistan
 
 
 🧰 Folder Structure
